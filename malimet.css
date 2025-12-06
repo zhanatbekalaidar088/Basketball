@@ -1,0 +1,79 @@
+body{
+    background-color: #f5f5dc;
+    font-family: "Popins", sans-serif;
+    color: brown;
+}
+table {
+    margin: auto;
+    border-spacing: 20px;
+
+}
+
+img {
+    border-radius: 15px;
+    width: 380px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px brown;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.wrapper {
+   position: center;
+    width: 80%;
+    margin:0 auto;
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(255,184,65);
+    border-radius : 15px ;
+    padding : 30px 20px ;
+}
+h1{
+    color: black;
+    background-color: orange;
+    width: 500px;
+    height: 59px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px orange;
+
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(244, 124, 19);
+    padding: 15px 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.top-bar h2 {
+    color: black;
+    margin: 0;
+    font-size: 26px;
+    text-shadow: 0 0 15px lightblue;
+}
+
+.top-bar-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.top-bar-button {
+    background-color: orange;
+    color: #0d0d0d;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.top-bar-button:hover {
+    background-color: #ff006a;
+    color: #fff;
+    transform: scale(1.05);
+}
